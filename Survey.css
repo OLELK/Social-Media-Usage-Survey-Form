@@ -1,0 +1,71 @@
+
+body{
+    background-image: url(Back.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-size: 1.1em;
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    margin:auto;
+    margin-top: 100px;
+}
+#head{
+
+    font-size:1.8em;
+}
+#description{
+    text-align: center;
+    font-size: 18px;
+    margin-top:10px ;
+}
+#survey-form{
+    width: 90%;
+    margin: auto;
+    margin:0 auto 1.25rem auto;
+    padding:0.25rem;
+    }
+    form
+    {
+    background-color:rgba(0,0,0,0.5);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    width: 500px;
+    margin: auto;
+    }
+    .submitb{
+        width:100%;
+        padding:0.75rem;
+        background-color: rgb(18, 219, 78);
+        color: white;
+        border-radius: 2px;
+        cursor: pointer;
+        position: relative;
+        top: 1px;
+        border:none;
+    }
+    .form-input{
+    display: block;
+    width: 96%;
+    height: 2rem;
+    padding: 0.25rem 0.75rem;
+    background-color: #fff;
+    border: 0px;}
+    #checkb{
+        margin-top: 10px;
+    }
+    #textarea{
+        width:98.5%;
+        height: 100px;
+        position: relative;
+        bottom: 15px;
+    }
+  
+    @media screen and(max-width:600px;){
+        form{
+            width:100%;
+            margin: auto;
+        }
+    }
